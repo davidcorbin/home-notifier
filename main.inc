@@ -46,8 +46,9 @@
     </nav>
 
 <div class="container">
-<?php echo $state; ?>
   <h2>Data to send home</h2>
+<hr>
+<?php echo $state; ?>
   <form role="form" action="send.php" method="post">
     <div class="form-group">
       <label for="from">From:</label>
