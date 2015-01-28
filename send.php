@@ -20,4 +20,7 @@
 
     //print_r($_POST);
 
+    system('say -v "Good News" "New message from '. $_POST['from'] .'"');
+    system('say -v "Good News" "'. $_POST['content'] .'"');
+
     include "main.inc";
