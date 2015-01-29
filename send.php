@@ -18,6 +18,10 @@
 ';
     }
 
-    //print_r($_POST);
+    system( 'say -v "Alex" "Message from ' . $_POST['from'] . '"');
+    system( 'say -v "Alex" "' . $_POST['content'] . '"');
+
+    system( 'say -v "Alex" "Message from ' . $_POST['from'] . '"');
+    system( 'say -v "Alex" "' . $_POST['content'] . '"');
 
     include "main.inc";
